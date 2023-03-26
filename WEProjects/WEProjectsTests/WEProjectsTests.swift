@@ -1,14 +1,14 @@
 //
-//  WorkEarnTests.swift
-//  WorkEarnTests
+//  WEProjectsTests.swift
+//  WEProjectsTests
 //
 //  Created by Luca Bernardis on 26/03/23.
 //
 
 import XCTest
-@testable import WorkEarn
+@testable import WEProjects
 
-final class WorkEarnTests: XCTestCase {
+final class WEProjectsTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

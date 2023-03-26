@@ -1,13 +1,13 @@
 //
-//  WorkEarnUITestsLaunchTests.swift
-//  WorkEarnUITests
+//  WEProjectsUITestsLaunchTests.swift
+//  WEProjectsUITests
 //
 //  Created by Luca Bernardis on 26/03/23.
 //
 
 import XCTest
 
-final class WorkEarnUITestsLaunchTests: XCTestCase {
+final class WEProjectsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

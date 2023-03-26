@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  WorkEarn
+//  WEProjects
 //
 //  Created by Luca Bernardis on 26/03/23.
 //

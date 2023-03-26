@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BEE0E12F29D0D51300BAD59C /* WorkEarnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E12E29D0D51300BAD59C /* WorkEarnApp.swift */; };
-		BEE0E13129D0D51300BAD59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E13029D0D51300BAD59C /* ContentView.swift */; };
-		BEE0E13329D0D51400BAD59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0E13229D0D51400BAD59C /* Assets.xcassets */; };
-		BEE0E13629D0D51400BAD59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0E13529D0D51400BAD59C /* Preview Assets.xcassets */; };
-		BEE0E14129D0D51400BAD59C /* WorkEarnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E14029D0D51400BAD59C /* WorkEarnTests.swift */; };
-		BEE0E14B29D0D51400BAD59C /* WorkEarnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E14A29D0D51400BAD59C /* WorkEarnUITests.swift */; };
-		BEE0E14D29D0D51400BAD59C /* WorkEarnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E14C29D0D51400BAD59C /* WorkEarnUITestsLaunchTests.swift */; };
+		BEE0E16629D0D6BE00BAD59C /* WEProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E16529D0D6BE00BAD59C /* WEProjectsApp.swift */; };
+		BEE0E16829D0D6BE00BAD59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E16729D0D6BE00BAD59C /* ContentView.swift */; };
+		BEE0E16A29D0D6BE00BAD59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0E16929D0D6BE00BAD59C /* Assets.xcassets */; };
+		BEE0E16D29D0D6BE00BAD59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0E16C29D0D6BE00BAD59C /* Preview Assets.xcassets */; };
+		BEE0E17829D0D6BF00BAD59C /* WEProjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E17729D0D6BF00BAD59C /* WEProjectsTests.swift */; };
+		BEE0E18229D0D6BF00BAD59C /* WEProjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E18129D0D6BF00BAD59C /* WEProjectsUITests.swift */; };
+		BEE0E18429D0D6BF00BAD59C /* WEProjectsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E18329D0D6BF00BAD59C /* WEProjectsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BEE0E13D29D0D51400BAD59C /* PBXContainerItemProxy */ = {
+		BEE0E17429D0D6BE00BAD59C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BEE0E12329D0D51300BAD59C /* Project object */;
+			containerPortal = BEE0E15A29D0D6BE00BAD59C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BEE0E12A29D0D51300BAD59C;
-			remoteInfo = WorkEarn;
+			remoteGlobalIDString = BEE0E16129D0D6BE00BAD59C;
+			remoteInfo = WEProjects;
 		};
-		BEE0E14729D0D51400BAD59C /* PBXContainerItemProxy */ = {
+		BEE0E17E29D0D6BF00BAD59C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BEE0E12329D0D51300BAD59C /* Project object */;
+			containerPortal = BEE0E15A29D0D6BE00BAD59C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BEE0E12A29D0D51300BAD59C;
-			remoteInfo = WorkEarn;
+			remoteGlobalIDString = BEE0E16129D0D6BE00BAD59C;
+			remoteInfo = WEProjects;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BEE0E12B29D0D51300BAD59C /* WorkEarn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkEarn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE0E12E29D0D51300BAD59C /* WorkEarnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkEarnApp.swift; sourceTree = "<group>"; };
-		BEE0E13029D0D51300BAD59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BEE0E13229D0D51400BAD59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEE0E13529D0D51400BAD59C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BEE0E13729D0D51400BAD59C /* WorkEarn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkEarn.entitlements; sourceTree = "<group>"; };
-		BEE0E13C29D0D51400BAD59C /* WorkEarnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkEarnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE0E14029D0D51400BAD59C /* WorkEarnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkEarnTests.swift; sourceTree = "<group>"; };
-		BEE0E14629D0D51400BAD59C /* WorkEarnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkEarnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE0E14A29D0D51400BAD59C /* WorkEarnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkEarnUITests.swift; sourceTree = "<group>"; };
-		BEE0E14C29D0D51400BAD59C /* WorkEarnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkEarnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEE0E16229D0D6BE00BAD59C /* WEProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE0E16529D0D6BE00BAD59C /* WEProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEProjectsApp.swift; sourceTree = "<group>"; };
+		BEE0E16729D0D6BE00BAD59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEE0E16929D0D6BE00BAD59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE0E16C29D0D6BE00BAD59C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEE0E16E29D0D6BE00BAD59C /* WEProjects.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WEProjects.entitlements; sourceTree = "<group>"; };
+		BEE0E17329D0D6BE00BAD59C /* WEProjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEProjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE0E17729D0D6BF00BAD59C /* WEProjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEProjectsTests.swift; sourceTree = "<group>"; };
+		BEE0E17D29D0D6BF00BAD59C /* WEProjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEProjectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE0E18129D0D6BF00BAD59C /* WEProjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEProjectsUITests.swift; sourceTree = "<group>"; };
+		BEE0E18329D0D6BF00BAD59C /* WEProjectsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEProjectsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BEE0E12829D0D51300BAD59C /* Frameworks */ = {
+		BEE0E15F29D0D6BE00BAD59C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE0E13929D0D51400BAD59C /* Frameworks */ = {
+		BEE0E17029D0D6BE00BAD59C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE0E14329D0D51400BAD59C /* Frameworks */ = {
+		BEE0E17A29D0D6BF00BAD59C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +72,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BEE0E12229D0D51300BAD59C = {
+		BEE0E15929D0D6BE00BAD59C = {
 			isa = PBXGroup;
 			children = (
-				BEE0E12D29D0D51300BAD59C /* WorkEarn */,
-				BEE0E13F29D0D51400BAD59C /* WorkEarnTests */,
-				BEE0E14929D0D51400BAD59C /* WorkEarnUITests */,
-				BEE0E12C29D0D51300BAD59C /* Products */,
+				BEE0E16429D0D6BE00BAD59C /* WEProjects */,
+				BEE0E17629D0D6BF00BAD59C /* WEProjectsTests */,
+				BEE0E18029D0D6BF00BAD59C /* WEProjectsUITests */,
+				BEE0E16329D0D6BE00BAD59C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BEE0E12C29D0D51300BAD59C /* Products */ = {
+		BEE0E16329D0D6BE00BAD59C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEE0E12B29D0D51300BAD59C /* WorkEarn.app */,
-				BEE0E13C29D0D51400BAD59C /* WorkEarnTests.xctest */,
-				BEE0E14629D0D51400BAD59C /* WorkEarnUITests.xctest */,
+				BEE0E16229D0D6BE00BAD59C /* WEProjects.app */,
+				BEE0E17329D0D6BE00BAD59C /* WEProjectsTests.xctest */,
+				BEE0E17D29D0D6BF00BAD59C /* WEProjectsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEE0E12D29D0D51300BAD59C /* WorkEarn */ = {
+		BEE0E16429D0D6BE00BAD59C /* WEProjects */ = {
 			isa = PBXGroup;
 			children = (
-				BEE0E12E29D0D51300BAD59C /* WorkEarnApp.swift */,
-				BEE0E13029D0D51300BAD59C /* ContentView.swift */,
-				BEE0E13229D0D51400BAD59C /* Assets.xcassets */,
-				BEE0E13729D0D51400BAD59C /* WorkEarn.entitlements */,
-				BEE0E13429D0D51400BAD59C /* Preview Content */,
+				BEE0E16529D0D6BE00BAD59C /* WEProjectsApp.swift */,
+				BEE0E16729D0D6BE00BAD59C /* ContentView.swift */,
+				BEE0E16929D0D6BE00BAD59C /* Assets.xcassets */,
+				BEE0E16E29D0D6BE00BAD59C /* WEProjects.entitlements */,
+				BEE0E16B29D0D6BE00BAD59C /* Preview Content */,
 			);
-			path = WorkEarn;
+			path = WEProjects;
 			sourceTree = "<group>";
 		};
-		BEE0E13429D0D51400BAD59C /* Preview Content */ = {
+		BEE0E16B29D0D6BE00BAD59C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BEE0E13529D0D51400BAD59C /* Preview Assets.xcassets */,
+				BEE0E16C29D0D6BE00BAD59C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BEE0E13F29D0D51400BAD59C /* WorkEarnTests */ = {
+		BEE0E17629D0D6BF00BAD59C /* WEProjectsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEE0E14029D0D51400BAD59C /* WorkEarnTests.swift */,
+				BEE0E17729D0D6BF00BAD59C /* WEProjectsTests.swift */,
 			);
-			path = WorkEarnTests;
+			path = WEProjectsTests;
 			sourceTree = "<group>";
 		};
-		BEE0E14929D0D51400BAD59C /* WorkEarnUITests */ = {
+		BEE0E18029D0D6BF00BAD59C /* WEProjectsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BEE0E14A29D0D51400BAD59C /* WorkEarnUITests.swift */,
-				BEE0E14C29D0D51400BAD59C /* WorkEarnUITestsLaunchTests.swift */,
+				BEE0E18129D0D6BF00BAD59C /* WEProjectsUITests.swift */,
+				BEE0E18329D0D6BF00BAD59C /* WEProjectsUITestsLaunchTests.swift */,
 			);
-			path = WorkEarnUITests;
+			path = WEProjectsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEE0E12A29D0D51300BAD59C /* WorkEarn */ = {
+		BEE0E16129D0D6BE00BAD59C /* WEProjects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE0E15029D0D51400BAD59C /* Build configuration list for PBXNativeTarget "WorkEarn" */;
+			buildConfigurationList = BEE0E18729D0D6BF00BAD59C /* Build configuration list for PBXNativeTarget "WEProjects" */;
 			buildPhases = (
-				BEE0E12729D0D51300BAD59C /* Sources */,
-				BEE0E12829D0D51300BAD59C /* Frameworks */,
-				BEE0E12929D0D51300BAD59C /* Resources */,
+				BEE0E15E29D0D6BE00BAD59C /* Sources */,
+				BEE0E15F29D0D6BE00BAD59C /* Frameworks */,
+				BEE0E16029D0D6BE00BAD59C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WorkEarn;
-			productName = WorkEarn;
-			productReference = BEE0E12B29D0D51300BAD59C /* WorkEarn.app */;
+			name = WEProjects;
+			productName = WEProjects;
+			productReference = BEE0E16229D0D6BE00BAD59C /* WEProjects.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BEE0E13B29D0D51400BAD59C /* WorkEarnTests */ = {
+		BEE0E17229D0D6BE00BAD59C /* WEProjectsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE0E15329D0D51400BAD59C /* Build configuration list for PBXNativeTarget "WorkEarnTests" */;
+			buildConfigurationList = BEE0E18A29D0D6BF00BAD59C /* Build configuration list for PBXNativeTarget "WEProjectsTests" */;
 			buildPhases = (
-				BEE0E13829D0D51400BAD59C /* Sources */,
-				BEE0E13929D0D51400BAD59C /* Frameworks */,
-				BEE0E13A29D0D51400BAD59C /* Resources */,
+				BEE0E16F29D0D6BE00BAD59C /* Sources */,
+				BEE0E17029D0D6BE00BAD59C /* Frameworks */,
+				BEE0E17129D0D6BE00BAD59C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BEE0E13E29D0D51400BAD59C /* PBXTargetDependency */,
+				BEE0E17529D0D6BE00BAD59C /* PBXTargetDependency */,
 			);
-			name = WorkEarnTests;
-			productName = WorkEarnTests;
-			productReference = BEE0E13C29D0D51400BAD59C /* WorkEarnTests.xctest */;
+			name = WEProjectsTests;
+			productName = WEProjectsTests;
+			productReference = BEE0E17329D0D6BE00BAD59C /* WEProjectsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BEE0E14529D0D51400BAD59C /* WorkEarnUITests */ = {
+		BEE0E17C29D0D6BF00BAD59C /* WEProjectsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE0E15629D0D51400BAD59C /* Build configuration list for PBXNativeTarget "WorkEarnUITests" */;
+			buildConfigurationList = BEE0E18D29D0D6BF00BAD59C /* Build configuration list for PBXNativeTarget "WEProjectsUITests" */;
 			buildPhases = (
-				BEE0E14229D0D51400BAD59C /* Sources */,
-				BEE0E14329D0D51400BAD59C /* Frameworks */,
-				BEE0E14429D0D51400BAD59C /* Resources */,
+				BEE0E17929D0D6BF00BAD59C /* Sources */,
+				BEE0E17A29D0D6BF00BAD59C /* Frameworks */,
+				BEE0E17B29D0D6BF00BAD59C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BEE0E14829D0D51400BAD59C /* PBXTargetDependency */,
+				BEE0E17F29D0D6BF00BAD59C /* PBXTargetDependency */,
 			);
-			name = WorkEarnUITests;
-			productName = WorkEarnUITests;
-			productReference = BEE0E14629D0D51400BAD59C /* WorkEarnUITests.xctest */;
+			name = WEProjectsUITests;
+			productName = WEProjectsUITests;
+			productReference = BEE0E17D29D0D6BF00BAD59C /* WEProjectsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BEE0E12329D0D51300BAD59C /* Project object */ = {
+		BEE0E15A29D0D6BE00BAD59C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					BEE0E12A29D0D51300BAD59C = {
+					BEE0E16129D0D6BE00BAD59C = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					BEE0E13B29D0D51400BAD59C = {
+					BEE0E17229D0D6BE00BAD59C = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = BEE0E12A29D0D51300BAD59C;
+						TestTargetID = BEE0E16129D0D6BE00BAD59C;
 					};
-					BEE0E14529D0D51400BAD59C = {
+					BEE0E17C29D0D6BF00BAD59C = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = BEE0E12A29D0D51300BAD59C;
+						TestTargetID = BEE0E16129D0D6BE00BAD59C;
 					};
 				};
 			};
-			buildConfigurationList = BEE0E12629D0D51300BAD59C /* Build configuration list for PBXProject "WorkEarn" */;
+			buildConfigurationList = BEE0E15D29D0D6BE00BAD59C /* Build configuration list for PBXProject "WEProjects" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = BEE0E12229D0D51300BAD59C;
-			productRefGroup = BEE0E12C29D0D51300BAD59C /* Products */;
+			mainGroup = BEE0E15929D0D6BE00BAD59C;
+			productRefGroup = BEE0E16329D0D6BE00BAD59C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEE0E12A29D0D51300BAD59C /* WorkEarn */,
-				BEE0E13B29D0D51400BAD59C /* WorkEarnTests */,
-				BEE0E14529D0D51400BAD59C /* WorkEarnUITests */,
+				BEE0E16129D0D6BE00BAD59C /* WEProjects */,
+				BEE0E17229D0D6BE00BAD59C /* WEProjectsTests */,
+				BEE0E17C29D0D6BF00BAD59C /* WEProjectsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BEE0E12929D0D51300BAD59C /* Resources */ = {
+		BEE0E16029D0D6BE00BAD59C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE0E13629D0D51400BAD59C /* Preview Assets.xcassets in Resources */,
-				BEE0E13329D0D51400BAD59C /* Assets.xcassets in Resources */,
+				BEE0E16D29D0D6BE00BAD59C /* Preview Assets.xcassets in Resources */,
+				BEE0E16A29D0D6BE00BAD59C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE0E13A29D0D51400BAD59C /* Resources */ = {
+		BEE0E17129D0D6BE00BAD59C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE0E14429D0D51400BAD59C /* Resources */ = {
+		BEE0E17B29D0D6BF00BAD59C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +255,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BEE0E12729D0D51300BAD59C /* Sources */ = {
+		BEE0E15E29D0D6BE00BAD59C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE0E13129D0D51300BAD59C /* ContentView.swift in Sources */,
-				BEE0E12F29D0D51300BAD59C /* WorkEarnApp.swift in Sources */,
+				BEE0E16829D0D6BE00BAD59C /* ContentView.swift in Sources */,
+				BEE0E16629D0D6BE00BAD59C /* WEProjectsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE0E13829D0D51400BAD59C /* Sources */ = {
+		BEE0E16F29D0D6BE00BAD59C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE0E14129D0D51400BAD59C /* WorkEarnTests.swift in Sources */,
+				BEE0E17829D0D6BF00BAD59C /* WEProjectsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEE0E14229D0D51400BAD59C /* Sources */ = {
+		BEE0E17929D0D6BF00BAD59C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE0E14D29D0D51400BAD59C /* WorkEarnUITestsLaunchTests.swift in Sources */,
-				BEE0E14B29D0D51400BAD59C /* WorkEarnUITests.swift in Sources */,
+				BEE0E18429D0D6BF00BAD59C /* WEProjectsUITestsLaunchTests.swift in Sources */,
+				BEE0E18229D0D6BF00BAD59C /* WEProjectsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BEE0E13E29D0D51400BAD59C /* PBXTargetDependency */ = {
+		BEE0E17529D0D6BE00BAD59C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEE0E12A29D0D51300BAD59C /* WorkEarn */;
-			targetProxy = BEE0E13D29D0D51400BAD59C /* PBXContainerItemProxy */;
+			target = BEE0E16129D0D6BE00BAD59C /* WEProjects */;
+			targetProxy = BEE0E17429D0D6BE00BAD59C /* PBXContainerItemProxy */;
 		};
-		BEE0E14829D0D51400BAD59C /* PBXTargetDependency */ = {
+		BEE0E17F29D0D6BF00BAD59C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEE0E12A29D0D51300BAD59C /* WorkEarn */;
-			targetProxy = BEE0E14729D0D51400BAD59C /* PBXContainerItemProxy */;
+			target = BEE0E16129D0D6BE00BAD59C /* WEProjects */;
+			targetProxy = BEE0E17E29D0D6BF00BAD59C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BEE0E14E29D0D51400BAD59C /* Debug */ = {
+		BEE0E18529D0D6BF00BAD59C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		BEE0E14F29D0D51400BAD59C /* Release */ = {
+		BEE0E18629D0D6BF00BAD59C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,16 +410,16 @@
 			};
 			name = Release;
 		};
-		BEE0E15129D0D51400BAD59C /* Debug */ = {
+		BEE0E18829D0D6BF00BAD59C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WorkEarn/WorkEarn.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WEProjects/WEProjects.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkEarn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WEProjects/Preview Content\"";
 				DEVELOPMENT_TEAM = 8335H995D7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -430,23 +430,23 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Berna.WorkEarn;
+				PRODUCT_BUNDLE_IDENTIFIER = Berna.WEProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		BEE0E15229D0D51400BAD59C /* Release */ = {
+		BEE0E18929D0D6BF00BAD59C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WorkEarn/WorkEarn.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WEProjects/WEProjects.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorkEarn/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WEProjects/Preview Content\"";
 				DEVELOPMENT_TEAM = 8335H995D7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -457,14 +457,14 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Berna.WorkEarn;
+				PRODUCT_BUNDLE_IDENTIFIER = Berna.WEProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		BEE0E15429D0D51400BAD59C /* Debug */ = {
+		BEE0E18B29D0D6BF00BAD59C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -475,15 +475,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Berna.WorkEarnTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Berna.WEProjectsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkEarn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkEarn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEProjects.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WEProjects";
 			};
 			name = Debug;
 		};
-		BEE0E15529D0D51400BAD59C /* Release */ = {
+		BEE0E18C29D0D6BF00BAD59C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,15 +494,15 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Berna.WorkEarnTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Berna.WEProjectsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkEarn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkEarn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEProjects.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WEProjects";
 			};
 			name = Release;
 		};
-		BEE0E15729D0D51400BAD59C /* Debug */ = {
+		BEE0E18E29D0D6BF00BAD59C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,15 +511,15 @@
 				DEVELOPMENT_TEAM = 8335H995D7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Berna.WorkEarnUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Berna.WEProjectsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = WorkEarn;
+				TEST_TARGET_NAME = WEProjects;
 			};
 			name = Debug;
 		};
-		BEE0E15829D0D51400BAD59C /* Release */ = {
+		BEE0E18F29D0D6BF00BAD59C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,54 +528,54 @@
 				DEVELOPMENT_TEAM = 8335H995D7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Berna.WorkEarnUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Berna.WEProjectsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = WorkEarn;
+				TEST_TARGET_NAME = WEProjects;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEE0E12629D0D51300BAD59C /* Build configuration list for PBXProject "WorkEarn" */ = {
+		BEE0E15D29D0D6BE00BAD59C /* Build configuration list for PBXProject "WEProjects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE0E14E29D0D51400BAD59C /* Debug */,
-				BEE0E14F29D0D51400BAD59C /* Release */,
+				BEE0E18529D0D6BF00BAD59C /* Debug */,
+				BEE0E18629D0D6BF00BAD59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE0E15029D0D51400BAD59C /* Build configuration list for PBXNativeTarget "WorkEarn" */ = {
+		BEE0E18729D0D6BF00BAD59C /* Build configuration list for PBXNativeTarget "WEProjects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE0E15129D0D51400BAD59C /* Debug */,
-				BEE0E15229D0D51400BAD59C /* Release */,
+				BEE0E18829D0D6BF00BAD59C /* Debug */,
+				BEE0E18929D0D6BF00BAD59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE0E15329D0D51400BAD59C /* Build configuration list for PBXNativeTarget "WorkEarnTests" */ = {
+		BEE0E18A29D0D6BF00BAD59C /* Build configuration list for PBXNativeTarget "WEProjectsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE0E15429D0D51400BAD59C /* Debug */,
-				BEE0E15529D0D51400BAD59C /* Release */,
+				BEE0E18B29D0D6BF00BAD59C /* Debug */,
+				BEE0E18C29D0D6BF00BAD59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE0E15629D0D51400BAD59C /* Build configuration list for PBXNativeTarget "WorkEarnUITests" */ = {
+		BEE0E18D29D0D6BF00BAD59C /* Build configuration list for PBXNativeTarget "WEProjectsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE0E15729D0D51400BAD59C /* Debug */,
-				BEE0E15829D0D51400BAD59C /* Release */,
+				BEE0E18E29D0D6BF00BAD59C /* Debug */,
+				BEE0E18F29D0D6BF00BAD59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BEE0E12329D0D51300BAD59C /* Project object */;
+	rootObject = BEE0E15A29D0D6BE00BAD59C /* Project object */;
 }
