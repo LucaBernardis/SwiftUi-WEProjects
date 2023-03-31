@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEC8F59429D46AEA00073B43 /* Experiences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8F59329D46AEA00073B43 /* Experiences.swift */; };
 		BEE0E16629D0D6BE00BAD59C /* WEProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E16529D0D6BE00BAD59C /* WEProjectsApp.swift */; };
 		BEE0E16829D0D6BE00BAD59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0E16729D0D6BE00BAD59C /* ContentView.swift */; };
 		BEE0E16A29D0D6BE00BAD59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0E16929D0D6BE00BAD59C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BEC8F59329D46AEA00073B43 /* Experiences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiences.swift; sourceTree = "<group>"; };
 		BEE0E16229D0D6BE00BAD59C /* WEProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE0E16529D0D6BE00BAD59C /* WEProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEProjectsApp.swift; sourceTree = "<group>"; };
 		BEE0E16729D0D6BE00BAD59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				BEE0E16529D0D6BE00BAD59C /* WEProjectsApp.swift */,
 				BEE0E16729D0D6BE00BAD59C /* ContentView.swift */,
+				BEC8F59329D46AEA00073B43 /* Experiences.swift */,
 				BEE0E16929D0D6BE00BAD59C /* Assets.xcassets */,
 				BEE0E16E29D0D6BE00BAD59C /* WEProjects.entitlements */,
 				BEE0E16B29D0D6BE00BAD59C /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				BEE0E16829D0D6BE00BAD59C /* ContentView.swift in Sources */,
 				BEE0E16629D0D6BE00BAD59C /* WEProjectsApp.swift in Sources */,
+				BEC8F59429D46AEA00073B43 /* Experiences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

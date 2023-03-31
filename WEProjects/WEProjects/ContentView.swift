@@ -7,17 +7,25 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    @State private var e = "ciao"
+    @State private var bool = false
+    
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Hello, world!")
+        VStack() {
+            Text("SwiftUI")
                 .bold()
-                .foregroundColor(.red)
-            Color.white
+                .foregroundColor(.yellow)
+                .font(.largeTitle)
+                .padding()
                 .frame(height: 100)
-            TextField(text: "Ciao", label: "Ciao")
-        }
-        .padding()
+            Toggle(isOn: $bool){
+                
+            }
+        }.padding()
         .frame(width: 400, height: 400)
 
     }
